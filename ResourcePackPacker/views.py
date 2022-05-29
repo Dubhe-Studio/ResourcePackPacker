@@ -9,6 +9,6 @@ def test(request):
     c = []
     for i in b:
         c.append(f'<img src="{b[i]}" width="32">{i}')
-    context = {'test': 'Test World!', 'x': json.dumps(c)}
+    context = {'x': json.dumps(c)}
     return render(request, 'test.html', context)
 
