@@ -1,0 +1,17 @@
+{
+  "id": "temp2",
+  "name": {
+    "en_us": "temp2",
+    "zh_cn": "测试模板2"
+  },
+  "description": {
+    "en_us": "another template",
+    "zh_cn": "另一个示例模板"
+  },
+  "version": "0.0.1",
+  "weight": 0,
+  "incompatible": [
+    "temp"
+  ],
+  "author": "Gugle"
+}
