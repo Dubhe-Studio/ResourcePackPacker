@@ -1,12 +1,6 @@
 import json
-
-from django.http import HttpResponse
 from django.shortcuts import render
 from Packer.GetSponsors import GetSponsors
-
-
-def hello(request):
-    return HttpResponse("<h>Hello world ! </h>")
 
 
 def test(request):
