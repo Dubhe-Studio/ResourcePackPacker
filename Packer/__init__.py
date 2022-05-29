@@ -1,4 +1,5 @@
 import os
 
-config_path = os.path.join(os.path.abspath("."), "configs")
-modules_path = os.path.join(os.path.abspath(".."), "modules")
+pro_dir = os.path.abspath("..")
+config_path = os.path.join(pro_dir, "configs")
+modules_path = os.path.join(pro_dir, "modules")

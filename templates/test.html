@@ -1,1 +1,13 @@
 <h1>{{ test }}</h1>
+<body>
+<script>
+    const request = require('request');
+    request('https://afdian.net/api/creator/get-top-sponsors?user_id=b0333d22d78811ecb3cd52540025c377', function (err, res, body) {
+        let datas = JSON.parse(body).data.list;
+        for (let i = 0; i < datas.length; i++) {
+            document.write(datas[i].name);
+            console.log(datas[i.name])
+        }
+    });
+</script>
+</body>
