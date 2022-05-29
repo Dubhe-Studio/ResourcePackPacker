@@ -1,6 +1,6 @@
 import json
 import os
-modules_path = os.path.join(os.path.abspath(".."), "modules")
+from Packer import modules_path
 
 
 class Module:
